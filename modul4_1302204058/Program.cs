@@ -11,6 +11,12 @@ namespace modul4_1302204058
         public static void Main(string[] args)
         {
             Console.WriteLine(Penjumlahan.JumlahTigaAngka<int> (13, 02, 20));
+            SimpleDataBase<int> objData = new SimpleDataBase<int>();
+            objData.AddNewData(12, DateTime.Now);
+            objData.AddNewData(34, DateTime.Now);
+            objData.AddNewData(56, DateTime.Now);
+            objData.PrintAllData();
+            Console.ReadKey();
         }
     }
 
@@ -23,6 +29,33 @@ namespace modul4_1302204058
             dynamic tempC = c;
 
             return tempA + tempB + tempC;
+        }
+    }
+
+    class SimpleDataBase<T>
+    {
+        private List<T> storedData;
+        private List<DateTime> inputDates;
+        public SimpleDataBase()
+        {
+            storedData = new List<T>();
+            inputDates = new List<DateTime>();
+        }
+        public void AddNewData(T dataBaru, DateTime dataDate)
+        {
+            storedData.Add(dataBaru);
+            inputDates.Add(dataDate);
+        }
+        public void PrintAllData()
+        {
+            foreach (T Data in storedData)
+            {
+                Console.WriteLine(Data);
+            }
+            foreach (DateTime DataDate in inputDates)
+            {
+                Console.WriteLine(DataDate);
+            }
         }
     }
 }

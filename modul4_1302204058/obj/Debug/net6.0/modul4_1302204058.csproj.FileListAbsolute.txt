@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 C:\Users\devar\source\repos\modul4_1302204058\modul4_1302204058\bin\Debug\net6.0\modul4_1302204058.exe
 C:\Users\devar\source\repos\modul4_1302204058\modul4_1302204058\bin\Debug\net6.0\modul4_1302204058.deps.json
 C:\Users\devar\source\repos\modul4_1302204058\modul4_1302204058\bin\Debug\net6.0\modul4_1302204058.runtimeconfig.json
 C:\Users\devar\source\repos\modul4_1302204058\modul4_1302204058\bin\Debug\net6.0\modul4_1302204058.dll
 C:\Users\devar\source\repos\modul4_1302204058\modul4_1302204058\bin\Debug\net6.0\modul4_1302204058.pdb
+=======
+>>>>>>> implementasi-generic-class
 C:\Users\devar\source\repos\modul4_1302204058\modul4_1302204058\obj\Debug\net6.0\modul4_1302204058.csproj.AssemblyReference.cache
 C:\Users\devar\source\repos\modul4_1302204058\modul4_1302204058\obj\Debug\net6.0\modul4_1302204058.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\devar\source\repos\modul4_1302204058\modul4_1302204058\obj\Debug\net6.0\modul4_1302204058.AssemblyInfoInputs.cache
